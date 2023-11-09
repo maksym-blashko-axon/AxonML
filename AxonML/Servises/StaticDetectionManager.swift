@@ -7,7 +7,11 @@
 
 import UIKit
 import Combine
-import MLKit
+import MLKitVision
+import MLKitFaceDetection
+import MLKitObjectDetection
+import MLKitCommon
+import MLKitObjectDetectionCommon
 import SnapKit
 
 final class StaticDetectionManager: NSObject, StaticDetectionManagerProtocol {

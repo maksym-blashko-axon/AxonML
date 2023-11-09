@@ -10,7 +10,12 @@ import Combine
 import UIKit
 import CoreVideo
 import MLImage
-import MLKit
+import MLKitVision
+import MLKitVision
+import MLKitFaceDetection
+import MLKitObjectDetection
+import MLKitCommon
+import MLKitObjectDetectionCommon
 import SnapKit
 
 final class DynamicDetectionManager: NSObject, DynamicDetectionManagerProtocol {
