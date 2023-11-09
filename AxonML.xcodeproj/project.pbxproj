@@ -8,11 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		2B6EE1D82AFCF526000C3EF7 /* AxonML.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6EE1D72AFCF526000C3EF7 /* AxonML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B6EE1DF2AFCF930000C3EF7 /* AxonMLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6EE1DE2AFCF930000C3EF7 /* AxonMLManager.swift */; };
+		2B6EE1E12AFCF964000C3EF7 /* AxonMLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6EE1E02AFCF964000C3EF7 /* AxonMLProtocol.swift */; };
+		2B6EE1E32AFCF971000C3EF7 /* DynamicDetectionManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6EE1E22AFCF971000C3EF7 /* DynamicDetectionManagerProtocol.swift */; };
+		2B6EE1E52AFCF97A000C3EF7 /* StaticDetectionManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6EE1E42AFCF97A000C3EF7 /* StaticDetectionManagerProtocol.swift */; };
+		2B6EE1E82AFCF994000C3EF7 /* DynamicDetectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6EE1E72AFCF994000C3EF7 /* DynamicDetectionManager.swift */; };
+		2B6EE1EA2AFCF9B0000C3EF7 /* StaticDetectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6EE1E92AFCF9B0000C3EF7 /* StaticDetectionManager.swift */; };
+		2B6EE1EC2AFCF9BC000C3EF7 /* UIUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6EE1EB2AFCF9BC000C3EF7 /* UIUtilities.swift */; };
+		2B6EE1EF2AFCF9DD000C3EF7 /* DetectorState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6EE1EE2AFCF9DD000C3EF7 /* DetectorState.swift */; };
+		2B6EE1F12AFCF9E6000C3EF7 /* DetectorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6EE1F02AFCF9E6000C3EF7 /* DetectorType.swift */; };
+		2B6EE1F42AFCFA00000C3EF7 /* UIImage+Scaled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6EE1F32AFCFA00000C3EF7 /* UIImage+Scaled.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B6EE1D42AFCF526000C3EF7 /* AxonML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AxonML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B6EE1D72AFCF526000C3EF7 /* AxonML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AxonML.h; sourceTree = "<group>"; };
+		2B6EE1DE2AFCF930000C3EF7 /* AxonMLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxonMLManager.swift; sourceTree = "<group>"; };
+		2B6EE1E02AFCF964000C3EF7 /* AxonMLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxonMLProtocol.swift; sourceTree = "<group>"; };
+		2B6EE1E22AFCF971000C3EF7 /* DynamicDetectionManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicDetectionManagerProtocol.swift; sourceTree = "<group>"; };
+		2B6EE1E42AFCF97A000C3EF7 /* StaticDetectionManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticDetectionManagerProtocol.swift; sourceTree = "<group>"; };
+		2B6EE1E72AFCF994000C3EF7 /* DynamicDetectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicDetectionManager.swift; sourceTree = "<group>"; };
+		2B6EE1E92AFCF9B0000C3EF7 /* StaticDetectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticDetectionManager.swift; sourceTree = "<group>"; };
+		2B6EE1EB2AFCF9BC000C3EF7 /* UIUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtilities.swift; sourceTree = "<group>"; };
+		2B6EE1EE2AFCF9DD000C3EF7 /* DetectorState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectorState.swift; sourceTree = "<group>"; };
+		2B6EE1F02AFCF9E6000C3EF7 /* DetectorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectorType.swift; sourceTree = "<group>"; };
+		2B6EE1F32AFCFA00000C3EF7 /* UIImage+Scaled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Scaled.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			children = (
 				2B6EE1D62AFCF526000C3EF7 /* AxonML */,
 				2B6EE1D52AFCF526000C3EF7 /* Products */,
+				D55DBF84178BD4611927319A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,8 +67,57 @@
 			isa = PBXGroup;
 			children = (
 				2B6EE1D72AFCF526000C3EF7 /* AxonML.h */,
+				2B6EE1DE2AFCF930000C3EF7 /* AxonMLManager.swift */,
+				2B6EE1E62AFCF97E000C3EF7 /* Protocols */,
+				2B6EE1ED2AFCF9C5000C3EF7 /* Servises */,
+				2B6EE1F22AFCF9EA000C3EF7 /* Models */,
+				2B6EE1F52AFCFA06000C3EF7 /* Extensions */,
 			);
 			path = AxonML;
+			sourceTree = "<group>";
+		};
+		2B6EE1E62AFCF97E000C3EF7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2B6EE1E02AFCF964000C3EF7 /* AxonMLProtocol.swift */,
+				2B6EE1E22AFCF971000C3EF7 /* DynamicDetectionManagerProtocol.swift */,
+				2B6EE1E42AFCF97A000C3EF7 /* StaticDetectionManagerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2B6EE1ED2AFCF9C5000C3EF7 /* Servises */ = {
+			isa = PBXGroup;
+			children = (
+				2B6EE1E72AFCF994000C3EF7 /* DynamicDetectionManager.swift */,
+				2B6EE1E92AFCF9B0000C3EF7 /* StaticDetectionManager.swift */,
+				2B6EE1EB2AFCF9BC000C3EF7 /* UIUtilities.swift */,
+			);
+			path = Servises;
+			sourceTree = "<group>";
+		};
+		2B6EE1F22AFCF9EA000C3EF7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B6EE1EE2AFCF9DD000C3EF7 /* DetectorState.swift */,
+				2B6EE1F02AFCF9E6000C3EF7 /* DetectorType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2B6EE1F52AFCFA06000C3EF7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2B6EE1F32AFCFA00000C3EF7 /* UIImage+Scaled.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D55DBF84178BD4611927319A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +163,7 @@
 				TargetAttributes = {
 					2B6EE1D32AFCF526000C3EF7 = {
 						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
@@ -129,6 +200,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B6EE1E12AFCF964000C3EF7 /* AxonMLProtocol.swift in Sources */,
+				2B6EE1EF2AFCF9DD000C3EF7 /* DetectorState.swift in Sources */,
+				2B6EE1DF2AFCF930000C3EF7 /* AxonMLManager.swift in Sources */,
+				2B6EE1F42AFCFA00000C3EF7 /* UIImage+Scaled.swift in Sources */,
+				2B6EE1E32AFCF971000C3EF7 /* DynamicDetectionManagerProtocol.swift in Sources */,
+				2B6EE1F12AFCF9E6000C3EF7 /* DetectorType.swift in Sources */,
+				2B6EE1E52AFCF97A000C3EF7 /* StaticDetectionManagerProtocol.swift in Sources */,
+				2B6EE1E82AFCF994000C3EF7 /* DynamicDetectionManager.swift in Sources */,
+				2B6EE1EC2AFCF9BC000C3EF7 /* UIUtilities.swift in Sources */,
+				2B6EE1EA2AFCF9B0000C3EF7 /* StaticDetectionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +221,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -188,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -206,6 +288,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -248,7 +331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -263,6 +346,7 @@
 		2B6EE1DC2AFCF526000C3EF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -271,9 +355,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,8 +370,9 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.AxonML;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -294,6 +381,7 @@
 		2B6EE1DD2AFCF526000C3EF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -302,9 +390,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +405,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.AxonML;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
