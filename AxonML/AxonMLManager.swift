@@ -34,7 +34,7 @@ final public class AxonMLManager: AxonMLProtocol {
     private var dynamicDetector: DynamicDetectionManagerProtocol?
     private var staticDetector: StaticDetectionManagerProtocol?
     
-    init() {
+    public init() {
         bind()
     }
     
